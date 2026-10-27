@@ -1,0 +1,237 @@
+body{background-color: #0D1422; color: white}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.logo {
+    color: #F72585;
+    font-weight: 800;
+    font-size: 20px;
+}
+.links {
+    display: flex;
+    gap: 30px;
+}
+.links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.links a:hover {
+    color: #F72585;
+}
+.header-button {
+    background-color: #F72585;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.header-button:hover {
+    box-shadow: #F72585 0 0 15px, #F72585 0 0 20px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    align-items: center;
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+.hero-content h1 {
+    margin: 0;
+}
+.hero-content p {
+    margin: 0;
+}
+.logo-color {
+    color: white;
+    font-size: 64px;
+    font-weight: 800;
+}
+.main-color {
+    color: #F72585;
+    font-size: 48px;
+    font-weight: 800;
+}
+.button {
+    background-color: #F72585;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+.hero-visual {
+    background-image: url("banhammermenu.png");
+    background-position: center;
+    background-size: cover;
+    width: 800px;
+    height: 400px;
+    background-color: #1B263B;
+    border-radius: 16px;
+    border: 2px solid #F72585;
+    box-shadow: #F72585 0 0 10px;
+}
+.features-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+}
+.features-card {
+    background-color: #1B263B;
+    padding: 24px;
+    border-radius: 12px;
+    width: 400px;
+    transition: 0.5s ease;
+    border: 2px solid #F72585;
+}
+.features-card:hover {
+    box-shadow: #F72585 0 0 15px, #F72585 0 0 20px;
+}
+.features-card h2 {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+.hero-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.hero-actions a {
+    transition: 0.5s ease;
+}
+.hero-actions a:first-child:hover {
+    box-shadow: #F72585 0 0 15px, #F72585 0 0 20px;
+}
+.hero-actions a:nth-child(2):hover {
+    box-shadow: #1B263B 0 0 15px, #1B263B 0 0 20px;
+}
+.features {
+    padding: 60px;
+}
+.features-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+.features-content h2 {
+    margin: 0;
+}
+.pricing {
+    padding: 60px;
+}
+.prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricing-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+}
+.pricing-content {
+    background-color: #1B263B;
+    padding: 24px;
+    border-radius: 12px;
+    width: 400px;
+    transition: 0.5s ease;
+    border: 2px solid #F72585;
+}
+.pricing-content:hover {
+    box-shadow: #F72585 0 0 15px;
+}
+.price {
+    color: #F72585;
+    font-size: 28px;
+    font-weight: 700;
+}
+.button-buy {
+    display: block;
+    background-color: #F72585;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+    transition: 0.5s ease;
+}
+.button-buy:hover {
+    box-shadow: #F72585 0 0 15px, #F72585 0 0 20px;
+}
+.pricing-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+.faq {
+    padding: 60px;
+}
+.faq-content {
+    text-align: center;
+}
+.faq-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #1B263B;
+    padding: 24px;
+    border-radius: 12px;
+    gap: 12px;
+    border: 2px solid #F72585;
+    cursor: pointer;
+}
+.faq-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.faq-item h3 {
+    margin: 0;
+}
+.faq-item p {
+    margin: 0;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: #1B263B;
+}
+.footer-links {
+    display: flex;
+    gap: 12px;
+}
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+}
+.footer-links a:hover {
+    color: #F72585;
+}
+.hero-actions a:nth-child(2) {
+    background-color: #1B263B;
+}
